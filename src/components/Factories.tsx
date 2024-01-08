@@ -2,7 +2,6 @@ import React from 'react'
 import { styled } from 'styled-components'
 import image from "../images/background.jpg"
 import { Canvas } from '@react-three/fiber'
-import Figure from './Figure'
 import Scene from './Scene'
 
 const Container = styled.div`
