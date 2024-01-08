@@ -1,0 +1,11 @@
+Model Information:
+* title:	Modern Home
+* source:	https://sketchfab.com/3d-models/modern-home-7054d2d8710b4213ad3857c1e37e57ec
+* author:	Ciolan-T. Sebastian (https://sketchfab.com/ciolan)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Modern Home" (https://sketchfab.com/3d-models/modern-home-7054d2d8710b4213ad3857c1e37e57ec) by Ciolan-T. Sebastian (https://sketchfab.com/ciolan) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

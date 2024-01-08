@@ -1,0 +1,11 @@
+Model Information:
+* title:	MC Donalds poly building
+* source:	https://sketchfab.com/3d-models/mc-donalds-poly-building-360d35c26cdf47cd866a32b5a9eb15f6
+* author:	suresh3d (https://sketchfab.com/sureshsmiley143225)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "MC Donalds poly building" (https://sketchfab.com/3d-models/mc-donalds-poly-building-360d35c26cdf47cd866a32b5a9eb15f6) by suresh3d (https://sketchfab.com/sureshsmiley143225) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
