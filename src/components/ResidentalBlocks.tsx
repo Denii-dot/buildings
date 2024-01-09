@@ -3,10 +3,15 @@ import { styled } from 'styled-components'
 import image from "../images/background.jpg"
 import { Canvas } from '@react-three/fiber'
 import Scene from './Scene'
+import AnimatedShapes from './AnimatedShapes'
 
 const Container = styled.div`
     display: flex;
+    padding:20px;
     height: calc(100vh - 80px);
+    @media only screen and (max-width:480px){
+        flex-direction: column;
+    }
 `
 
 const BackgroundImage = styled.div`
@@ -20,6 +25,9 @@ const BackgroundImage = styled.div`
     background-position:center;
     z-index: -1;
     filter:blur(4px);
+    @media only screen and (max-width:480px){
+        height: 200vh;
+    }
 `
 
 const BackgroundOverlay = styled.div`
@@ -30,7 +38,9 @@ const BackgroundOverlay = styled.div`
     width: 100%;
     background-color: rgba(255,255,255, 0.2);
     z-index: -1;
-
+    @media only screen and (max-width:480px){
+        height: 200vh;
+    }
 
 `
 
@@ -41,11 +51,17 @@ const Left = styled.div`
     flex-direction:column;
     align-items: center;
     justify-content:center;
+    @media only screen and (max-width:480px){
+        width: 100%;
+    }
 `
 
 const Title = styled.h1`
     font-size:60px;
     width:60%;
+    @media only screen and (max-width:480px){
+        font-size:40px;
+    }
 `
 
 const Desc = styled.p`
@@ -60,11 +76,19 @@ const Info = styled.div`
     align-items: center;
     margin-top: 30px;
     width:60%;
+    @media only screen and (max-width:480px){
+        width:100%;
+    }
 `
 
 const Right = styled.div`
     height: calc(100vh - 50px);
     width: 40%;
+    @media only screen and (max-width:480px){
+        margin-top: 60px;
+        height: 100%;
+        width: 100%;
+    }
 `
 
 const Button = styled.button`
@@ -92,7 +116,6 @@ const ContactText = styled.span`
     margin-top: 5px;
     color: #e6e2e2;
 `
-
 const ResidentalBlocks: React.FC = () => {
     return (<>
         <BackgroundImage />
@@ -116,6 +139,7 @@ const ResidentalBlocks: React.FC = () => {
                     <Scene linkToUrl='./Models/block_of_flats_2/scene.gltf' />
                 </Canvas>
             </Right>
+            <AnimatedShapes />
         </Container>
     </>
     )
