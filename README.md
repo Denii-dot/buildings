@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project works [here](https://github.com/facebook/create-react-app).
+This project works [here](https://helpful-blancmange-c23343.netlify.app/).
 
 The project uses [three.js](https://threejs.org/)
 Models from [here](https://sketchfab.com/feed)
